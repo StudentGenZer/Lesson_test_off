@@ -5,6 +5,7 @@ file = open("info.txt","r")
 info = file.read()
 file.close()
 arr_info = info.split("\n")
+a = 0
 import telebot
 keyboard = telebot.types.ReplyKeyboardMarkup()
 keyboard.row("1","2","3","4","5","6","7")
